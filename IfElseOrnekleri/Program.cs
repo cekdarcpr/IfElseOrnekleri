@@ -30,13 +30,13 @@ namespace IfElseOrnekleri
 
             /* Kullanıcının girdiği iki sayı
             ve yapılacak işlem türü (toplama, çıkarma, çarpma, bölme) seçildiğinde
-            sonucu hesaplayarak ekranda gösteren programı yazalım.*/
+            sonucu hesaplayarak ekranda gösteren proje.*/
 
             
-            Console.Write("Birinci sayıyı girin:");
+            Console.Write("Birinci sayıyı girin : ");
             double sayi1 = Convert.ToDouble(Console.ReadLine());
             
-            Console.Write("İkinci sayıyı girin:");
+            Console.Write("İkinci sayıyı girin : ");
             double sayi2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Toplama için ---> t \n Çıkarma için ---> ç \n Çarpma için ---> x \n Bölme için ---> b tuşuna basınız.");
             
