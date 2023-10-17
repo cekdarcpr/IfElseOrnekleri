@@ -9,7 +9,8 @@ namespace IfElseOrnekleri
             /*Bir mağazada alınan ürünün fiyatı 100 Tl
             ve üzerinde ise 10 Tl olan kargo ücreti alınmamaktadır.
             Ürünün fiyatı girildiğinde
-            toplam ödenmesi gereken tutarı gösteren programı yazalım.*/
+            toplam ödenmesi gereken tutarı gösteren proje.*/
+
 
             Console.WriteLine("Ürünün Fiyatını Giriniz = ");
             double fiyat = Convert.ToDouble(Console.ReadLine());
